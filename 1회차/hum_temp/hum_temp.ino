@@ -5,7 +5,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600); //시리얼 통신 설정
+  Serial.begin(9600);
 
 }
 
@@ -13,7 +13,7 @@ void loop() {
   int h = dht.readHumidity();
   int t = dht.readTemperature();
 
-  Serial.print("humidity : "); //텍스트 출력
+  Serial.print("humidity : "); 
   Serial.println(h);
   Serial.print("temperature : ");
   Serial.println(t);
