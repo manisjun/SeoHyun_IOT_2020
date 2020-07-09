@@ -13,7 +13,7 @@ void loop() {
   int h = dht.readHumidity();
   int t = dht.readTemperature();
 
-  Serial.print("humidity : ");
+  Serial.print("humidity : "); //텍스트 출력
   Serial.println(h);
   Serial.print("temperature : ");
   Serial.println(t);
