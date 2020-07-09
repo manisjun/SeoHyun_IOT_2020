@@ -5,7 +5,7 @@
 DHT dht(DHTPIN, DHTTYPE);
 
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(9600); //시리얼 통신 설정
 
 }
 
